@@ -1,0 +1,52 @@
+body{
+  background-color: aqua;
+  background: url('./assets/weatherBackground.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.main{
+  display: flex;
+  width: 40vw;
+  height: 70vh;
+  flex-direction: column;
+  row-gap: 2rem;
+  background-image:linear-gradient(rgb(177, 215, 236),rgb(21, 82, 133));
+  padding: 2rem;
+  box-shadow: 12px 12px 12px rgb(27, 20, 20);
+  border-radius: 12px;
+  align-items: center;
+}
+.main input{
+  height:2rem;
+  width: 40%;
+  align-self: center;
+  border-radius: 1rem;
+  border: none;
+  padding: .9rem;
+  font-size: large;
+  /* text-align: center; */
+}
+.temp{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+ p{
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.icon{
+  position: relative;
+  left:60px;
+}
